@@ -1,6 +1,6 @@
 # Generate QuickDraw dataset for training
 
-from quickdraw_class import *
+from OutSketch.processors.quickdraw_class import *
 import tensorflow as tf
 from scipy.ndimage import rotate, zoom
 from skimage.transform import resize
